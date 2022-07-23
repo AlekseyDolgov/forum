@@ -1,0 +1,58 @@
+/*Шрифт*/
+@font-face { /*Шрифт BoldItalic*/
+	font-family: 'BoldItalic';
+	src: url('../fonts/Comfortaa/Comfortaa-VariableFont_wght.eot');
+	src: local('☺'), url('../fonts/Comfortaa/Comfortaa-VariableFont_wght.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-VariableFont_wght.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face { /*Основной шрифт*/
+	font-family: 'UbuntuCondensed';
+	src: url('../fonts/UbuntuCondensed-Regular/UbuntuCondensed-Regular.eot');
+	src: local('☺'), url('../fonts/UbuntuCondensed-Regular/UbuntuCondensed-Regular.woff') format('woff'), url('../fonts/UbuntuCondensed-Regular/UbuntuCondensed-Regular.ttf') format('truetype'), url('../fonts/UbuntuCondensed-Regular/UbuntuCondensed-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ofont';
+	src: url('../fonts/ofont.ru_Rounds/ofont.ru_Rounds.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Rounds/ofont.ru_Rounds.woff') format('woff'), url('../fonts/ofont.ru_Rounds/ofont.ru_Rounds.ttf') format('truetype'), url('../fonts/ofont.ru_Rounds/ofont.ru_Rounds.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.header {
+	/*text-align: left;*/
+	/*margin-left: 10px;*/
+}
+html {
+	height: 100%;
+}
+body{
+	font-family: 'UbuntuCondensed';
+	background: -webkit-linear-gradient(309deg, #d2bd92,#ddcaa0,#f8f3e0,#fefdf9);background: linear-gradient(309deg, #d2bd92,#ddcaa0,#f8f3e0,#fefdf9);
+	/*
+	background: #F2C661;
+	background: -webkit-radial-gradient(bottom, #F2C661, #FFFEFD);
+	background: -moz-radial-gradient(bottom, #F2C661, #FFFEFD);
+	background: radial-gradient(to top, #F2C661, #FFFEFD);
+	*/
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/*Шапка*/
+
+#MC_Svoboda {
+	font-family: 'BoldItalic';
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+#quote{
+	font-size: 22px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
