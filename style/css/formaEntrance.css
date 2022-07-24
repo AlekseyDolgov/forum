@@ -75,9 +75,9 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 }
 
 #form {
-    position: relative;
-    width: 500px;
-    margin: 50px auto 100px auto;
+    /*position: relative;*/
+    width: 1px;
+    margin: -10px auto 100px auto;
 }
 
 input {
