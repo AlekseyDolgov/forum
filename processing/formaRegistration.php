@@ -1,5 +1,5 @@
 <?php
-require_once "../config/bdConnection.php";
+require_once __DIR__."/../config/bdConnection.php";
 $id = $_POST['id'];
 $username = $_POST['username'];
 $password = $_POST['password'];
